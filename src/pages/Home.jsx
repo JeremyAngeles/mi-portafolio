@@ -105,7 +105,7 @@ const Home = () => {
       {/* COMPONENTE PROYECTOS */}
       <section id="projects" className="mb-32">
         <h3 className="text-2xl font-bold text-mi-acento mb-12 flex items-center gap-4">
-          <span className="font-mono text-mi-gris text-sm font-normal">02 //</span> TRABAJO DESTACADO
+          <span className="font-mono text-mi-gris text-sm font-normal">02 //</span> TRABAJOS DESTACADOS
         </h3>
         <div className="space-y-16">
           {projects.map((proj, index) => (

@@ -3,13 +3,14 @@ import { Globe, UserCheck, ExternalLink } from 'lucide-react';
 
 const Extras = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-12 mb-32">
+    // LE QUITAMOS EL mb-32 PARA ACERCARLO AL FOOTER
+    <div className="grid md:grid-cols-2 gap-12">
       {/* SECCIÓN IDIOMAS */}
       <section id="languages">
         <h3 className="text-2xl font-bold text-mi-acento mb-8 flex items-center gap-4">
           <span className="font-mono text-mi-gris text-sm font-normal">05 //</span> IDIOMAS
         </h3>
-        <div className="bg-[#050505] border border-mi-borde rounded-3xl p-8 space-y-4">
+        <div className="bg-[#050505] border border-mi-borde rounded-3xl p-8 space-y-4 h-full">
           <div className="flex items-center justify-between border-b border-mi-borde pb-4">
             <div className="flex items-center gap-3 text-mi-acento font-semibold"><Globe size={18} className="text-mi-gris"/> Español</div>
             <span className="font-mono text-xs text-mi-gris bg-[#0a0a0a] px-3 py-1 rounded-full border border-mi-borde">Nativo</span>
