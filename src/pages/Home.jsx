@@ -32,7 +32,7 @@ const projects = [
     title: "E-Health Dermatología Dra. Karen Ángeles",
     description: "Digitalización de consultorio médico mediante SPA. Interfaz premium con animaciones fluidas, hooks avanzados React y optimización para captación de pacientes vía WhatsApp. 100% responsive mobile-first.",
     tags: ["React", "JS (ES6+)", "Tailwind", "Framer Motion"],
-    url: "https://dra-karen-angeles.vercel.app/" 
+    url: "https://karenangelesderma.com/" 
   },
   {
     logo: null, 
@@ -151,7 +151,7 @@ const Home = () => {
 
       {/* 1. COMPONENTE EDUCACIÓN (ISIL) */}
       <Education />
-
+          
       {/* 2. COMPONENTE TIMELINE (Cursos y Experiencia) */}
       <Timeline />
 
