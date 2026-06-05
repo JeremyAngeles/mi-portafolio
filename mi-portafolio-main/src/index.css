@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-mi-fondo: #000000;
+  --color-mi-acento: #ffffff;
+  --color-mi-gris: #a3a3a3;
+  --color-mi-borde: #262626;
+  --font-sans: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  @apply bg-mi-fondo text-mi-gris font-sans antialiased overflow-x-hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
