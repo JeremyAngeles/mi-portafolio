@@ -23,7 +23,7 @@ const Education = () => {
           <p className="text-xl text-mi-gris font-light mb-6">Ingeniería de Software</p>
           
           <div className="flex gap-4 font-mono text-xs text-mi-gris flex-wrap justify-center md:justify-start">
-            <span className="bg-mi-acento text-mi-fondo font-bold px-4 py-2 rounded-full">Quinto Ciclo (En curso)</span>
+            <span className="bg-mi-acento text-mi-fondo font-bold px-4 py-2 rounded-full">Terminado</span>
             <span className="bg-[#0a0a0a] border border-mi-borde px-4 py-2 rounded-full">2023 - 2026</span>
           </div>
         </div>

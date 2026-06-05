@@ -6,7 +6,7 @@ const Header = () => {
     <nav className="p-6 md:px-12 flex justify-between items-center text-mi-acento backdrop-blur-md fixed w-full top-0 z-50 bg-mi-fondo/80 border-b border-mi-borde">
       <div className="flex flex-col">
         <span className="font-sans font-extrabold tracking-tight text-xl">JEREMY ANGELES</span>
-        <span className="font-mono text-xs text-mi-gris tracking-widest uppercase">Java Full Stack // ISIL</span>
+        <span className="font-mono text-xs text-mi-gris tracking-widest uppercase">Ingeniero de software // ISIL</span>
       </div>
       <div className="flex gap-4 items-center">
         <a href="https://github.com/JeremyAngeles" target="_blank" rel="noreferrer" className="text-mi-gris hover:text-mi-acento transition-colors"><Github size={20}/></a>

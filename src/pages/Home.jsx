@@ -64,12 +64,12 @@ const Home = () => {
         <div className="inline-block border border-mi-borde rounded-full px-4 py-1 mb-6">
           <p className="font-mono text-mi-gris text-xs tracking-widest uppercase flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-mi-acento animate-pulse"></span>
-            Java Full Stack Trainee // ISIL // Qto Ciclo
+           Ingeniero de software // ISIL //
           </p>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-extrabold text-mi-acento mb-4 tracking-tight leading-tight">
-          Desarrollador Java <br />
+         Ingeniero de software <br />
           <span className="text-mi-gris">Full Stack.</span>
         </h1>
         <p className="max-w-2xl text-lg md:text-xl leading-relaxed mb-10 text-mi-gris font-light mt-8">
